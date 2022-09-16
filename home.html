@@ -11,71 +11,120 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 
 
-  <link rel="stylesheet" href="./home/assets/css/home.css" />
+ <link rel="stylesheet" href="./assets/css/home/home.css">
 </head>
 
 <body>
   <header>
-    <section id="head">
-      <div class="left">
-        <div class="welcome" style="padding-right: 5px">
-          Welcome to our Store
-        </div>
-        <div class="language">
-          English
-          <div class="icon">
-            <i class="fa-sharp fa-solid fa-caret-down"></i>
-          </div>
-          <div class="language-ex d-none">
-            <li>English</li>
-            <li>French</li>
-          </div>
-        </div>
+    <section id="top-area">
+      <div class="my-container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
+            <div class="welcome">
+              <p>Welcome to our store</p>
+            </div>
 
-        <div class="currency">
-          USD
-          <div class="icon">
-            <i class="fa-sharp fa-solid fa-caret-down"></i>
-          </div>
-          <div class="currency-ex d-none">
-            <ul>
-              <li>
-                <div>
-                  <img src="./home/assets/images/OIP.jfif" alt="" />
-                </div>
-                <span>India</span>
-              </li>
-              <li>
-                <div>
-                  <img src="./home/assets/images/OIP.jfif" alt="" />
-                </div>
-                <span>India</span>
-              </li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="right">
-        <div class="cart">
-          <i class="fa-solid fa-cart-shopping"></i><sub>3</sub>
-        </div>
-        <div class="heart"><i class="fa-solid fa-heart"></i><sub>2</sub></div>
+            <div class="language">
+              <div class="dropdown">
+                <button
+                  class="btn btn-secondary dropdown-toggle button1"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  English
+                </button>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="dropdownMenuButton1"
+                >
+                  <li><a class="dropdown-item" href="#">English</a></li>
+                  <li><a class="dropdown-item" href="#">French</a></li>
+                </ul>
+              </div>
+            </div>
 
-        <div class="profile">
-          <div class="img" style="padding: 0">
-            <img src="./home/assets/images/OIP.jfif" alt="" />
+            <div class="country">
+              <div class="dropdown">
+                <button
+                  class="btn btn-secondary dropdown-toggle button2"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  USD
+                </button>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="dropdownMenuButton1"
+                >
+                  <li>
+                    <a class="dropdown-item" href=""
+                      ><img src="./assets/images/home/Flag-India.jpg" /><span
+                        >INR</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href=""
+                      ><img
+                        src="./assets/images/home/220px-Flag_of_the_United_States.svg.png"
+                      /><span>USD</span></a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href=""
+                      ><img
+                        src="./assets/images/home/Flag_of_New_Zealand.svg.png"
+                      /><span>NZD</span></a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href=""
+                      ><img src="./assets/images/home/Flag_of_Germany.svg.png" /><span
+                        >GMD</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href=""
+                      ><img
+                        src="./assets/images/home/1200px-Flag_of_Israel.svg.png"
+                      /><span>ILR</span></a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href=""
+                      ><img src="./assets/images/home/Flag_of_France.svg.png" /><span
+                        >EUR</span
+                      ></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="profile-ex d-none">
-            <ul>
-              <li><i class="fa-solid fa-circle-user"></i>Profile</li>
-              <li><i class="fa-solid fa-gear"></i>Account</li>
-              <li><i class="fa-solid fa-envelope"></i>Message</li>
-              <li><i class="fa-solid fa-power-off"></i>Log out</li>
-            </ul>
+
+          <div class="col-8">
+            <div class="icons">
+              <div class="basket">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <div class="basket-circles"><sup>0</sup></div>
+              </div>
+
+              <div class="heart">
+                <i class="fa-solid fa-heart"></i>
+                <div class="heart-circles"><sup>0</sup></div>
+              </div>
+
+              <div class="profile-img">
+                <a href=""
+                  ><img src="./assets/images/home/1200px-Flag_of_Israel.svg.png" alt="profile"
+                /></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -87,7 +136,7 @@
           <div class="col-12 d-flex">
             <div class="col-lg-6 col-md-3 col-sm-12">
               <div class="logo">
-                <img src="./home/assets/images/download.png" alt="" />
+                <img src="./assets/images/home/download.png" alt="" />
               </div>
             </div>
 
@@ -180,21 +229,21 @@
                 <div class="swiper-slide">
                   <p>2019 Latest Collection</p>
                   <h1>New Fashion<br />Collection</h1>
-                  <img src="./home/assets/images/h-slider-2.e4a8e8e2.jpg" alt="" />
+                  <img src="./assets/images/home/h-slider-1.e60ce1cc.jpg" alt="" />
 
                   <a href="">Shop Now</a>
                 </div>
                 <div class="swiper-slide">
                   <p>2019 Latest Collection</p>
                   <h1>Summer Time<br />Collection</h1>
-                  <img src="./home/assets/images/h-slider-1.e60ce1cc.jpg" alt="" />
+                  <img src="./assets/images/home/h-slider-2.e4a8e8e2.jpg" alt="" />
 
                   <a href="">Shop Now</a>
                 </div>
                 <div class="swiper-slide">
                   <p>2019 Latest Collection</p>
                   <h1>Men's Suiting<br />And Clothing</h1>
-                  <img src="./home/assets/images/h-slider-3.742f8c4c.jpg" alt="" />
+                  <img src="./assets/images/home/h-slider-3.742f8c4c.jpg" alt="" />
 
                   <a href="">Shop Now</a>
                 </div>
@@ -329,9 +378,7 @@
         </div>
       </div>
       </div>
-    </section>
-
-  
+    </section>  
 
     <section id="categories" style="margin-top: 160px;">
       <div class="container-fluid">
@@ -405,21 +452,53 @@
             <span class="nav"><a href="#tabcon-03">Men</a></span>
           </div>
         </div>
-        <!-- tab-nav -->
-
-        <!-- //tab-nav -->
-
-        <!-- tab-con -->
+        
         <div class="tab-con">
           <div id="tabcon-01" class="con-box" style="display: block;">
 
             <div class="swiper mySwiper1">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
+
                   <div class="product-card">
 
                     <div class="img">
-                      <img src="./home/assets/images/pulqabi.jpg" alt="">
+                      <img src="./assets/images/home/pulqabi.jpg" alt="">
+
+                      <div class="price">
+                        $15.75
+                      </div>
+                    </div>
+                    <div class="title">
+                      <div class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                      </div>
+                      <h6>Men Purse</h6>
+                      <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                      </ul>
+
+                    </div>
+                    <div class="icons">
+                      <div class="heart">
+                        <i class="fa-solid fa-heart"></i>
+                      </div>
+                      <div class="eye">
+                        <i class="fa-solid fa-eye"></i>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="swiper-slide">
+                  <div class="product-card">
+
+                    <div class="img">
+                      <img src="./assets/images/home/bag.jpg" alt="">
 
                       <div class="price">
                         $54.33
@@ -429,7 +508,7 @@
                       <div class="cart">
                         <i class="fa-solid fa-cart-shopping"></i>
                       </div>
-                      <h6>Steel Chain</h6>
+                      <h6>Laptop Backpack</h6>
                       <ul>
                         <li><i class="fa-solid fa-star"></i></li>
                         <li><i class="fa-solid fa-star"></i></li>
@@ -453,41 +532,7 @@
                   <div class="product-card">
 
                     <div class="img">
-                      <img src="./home/assets/images/bag.jpg" alt="">
-
-                      <div class="price">
-                        $54.33
-                      </div>
-                    </div>
-                    <div class="title">
-                      <div class="cart">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                      </div>
-                      <h6>Steel Chain</h6>
-                      <ul>
-                        <li><i class="fa-solid fa-star"></i></li>
-                        <li><i class="fa-solid fa-star"></i></li>
-                        <li><i class="fa-solid fa-star"></i></li>
-                        <li><i class="fa-solid fa-star"></i></li>
-                        <li><i class="fa-solid fa-star"></i></li>
-                      </ul>
-
-                    </div>
-                    <div class="icons">
-                      <div class="heart">
-                        <i class="fa-solid fa-heart"></i>
-                      </div>
-                      <div class="eye">
-                        <i class="fa-solid fa-eye"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="product-card">
-
-                    <div class="img">
-                      <img src="./home/assets/images/boyunbagi.jpg" alt="">
+                      <img src="./assets/images/home/boyunbagi.jpg" alt="">
                       
                       <div class="price">
                         $54.33
@@ -521,7 +566,7 @@
                    <div class="product-card">
 
                   <div class="img">
-                    <img src="./home/assets/images/a-5-a.eae9d54f.jpg" alt="">
+                    <img src="./assets/images/home/a-5-a.eae9d54f.jpg" alt="">
                     
                     <div class="price">
                       $54.33
@@ -531,7 +576,7 @@
                     <div class="cart">
                       <i class="fa-solid fa-cart-shopping"></i>
                     </div>
-                    <h6>Steel Chain</h6>
+                    <h6>Summer Glasses</h6>
                     <ul >
                       <li><i class="fa-solid fa-star"></i></li>
                       <li><i class="fa-solid fa-star"></i></li>
@@ -555,7 +600,7 @@
                    <div class="product-card">
 
                   <div class="img">
-                    <img src="./home/assets/images/a-5-a.eae9d54f.jpg" alt="">
+                    <img src="./assets/images/home/a-5-a.eae9d54f.jpg" alt="">
                     
                     <div class="price">
                       $54.33
@@ -596,7 +641,7 @@
                   <div class="product-card">
 
                   <div class="img">
-                    <img src="./home/assets/images/saat.jpg" alt="">
+                    <img src="./assets/images/home/saat.jpg" alt="">
 
                     <div class="price">
                       $54.33
@@ -627,11 +672,46 @@
                 </div>
               </div>
 
+              <div class="swiper-slide"> 
+                <div class="product-card">
+
+                <div class="img">
+                  <img src="./assets/images/home/bag.jpg" alt="">
+
+                  <div class="price">
+                    $54.33
+                  </div>
+                </div>
+                <div class="title">
+                  <div class="cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                  <h6>Steel Chain</h6>
+                  <ul>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                  </ul>
+
+                </div>
+                <div class="icons">
+                  <div class="heart">
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                  <div class="eye">
+                    <i class="fa-solid fa-eye"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
                 <div class="swiper-slide">
                    <div class="product-card">
 
                   <div class="img">
-                    <img src="./home/assets/images/qulaqliq.jpg" alt="">
+                    <img src="./assets/images/home/qulaqliq.jpg" alt="">
 
                     <div class="price">
                       $54.33
@@ -665,7 +745,7 @@
                   <div class="product-card">
 
                   <div class="img">
-                    <img src="./home/assets/images/download.jfif" alt="">
+                    <img src="./assets/images/home/download.jfif" alt="">
 
                     <div class="price">
                       $54.33
@@ -698,7 +778,7 @@
                   <div class="product-card">
 
                   <div class="img">
-                    <img src="./home/assets/images/a-5-a.eae9d54f.jpg" alt="">
+                    <img src="./assets/images/home/a-5-a.eae9d54f.jpg" alt="">
 
                     <div class="price">
                       $54.33
@@ -740,7 +820,7 @@
                    <div class="product-card">
 
                   <div class="img">
-                    <img src="./home/assets/images/paltar1.jpg" alt="">
+                    <img src="./assets/images/home/paltar1.jpg" alt="">
 
                     <div class="price">
                       $54.33
@@ -774,7 +854,7 @@
                    <div class="product-card">
 
                   <div class="img">
-                    <img src="./home/assets/images/paltar2.jpg" alt="">
+                    <img src="./assets/images/home/paltar2.jpg" alt="">
 
                     <div class="price">
                       $54.33
@@ -807,7 +887,7 @@
                    <div class="product-card">
 
                   <div class="img">
-                    <img src="./home/assets/images/paltar3.jpg" alt="">
+                    <img src="./assets/images/home/paltar3.jpg" alt="">
 
                     <div class="price">
                       $54.33
@@ -840,7 +920,7 @@
                   <div class="product-card">
 
                   <div class="img">
-                    <img src="./home/assets/images/paltar4.jpg" alt="">
+                    <img src="./assets/images/home/paltar4.jpg" alt="">
 
                     <div class="price">
                       $54.33
@@ -873,7 +953,7 @@
                   <div class="product-card">
 
                   <div class="img">
-                    <img src="./home/assets/images/a-5-a.eae9d54f.jpg" alt="">
+                    <img src="./assets/images/home/a-5-a.eae9d54f.jpg" alt="">
 
                     <div class="price">
                       $54.33
@@ -947,11 +1027,11 @@
         <h3 style="text-align: center;">Top Brands</h3>
         <div class="swiper mySwiper4">
           <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="./home/assets/images/brand.png" alt=""></div>
-            <div class="swiper-slide"><img src="./home/assets/images/brand2.png" alt=""></div>
-            <div class="swiper-slide"><img src="./home/assets/images/brand3.png" alt=""></div>
-            <div class="swiper-slide"><img src="./home/assets/images/brand3.png" alt=""></div>
-            <div class="swiper-slide"><img src="./home/assets/images/brand2.png" alt=""></div>
+            <div class="swiper-slide"><img src="./assets/images/home/brand.png" alt=""></div>
+            <div class="swiper-slide"><img src="./assets/images/home/brand2.png" alt=""></div>
+            <div class="swiper-slide"><img src="./assets/images/home/brand3.png" alt=""></div>
+            <div class="swiper-slide"><img src="./assets/images/home/brand2.png" alt=""></div>
+            <div class="swiper-slide"><img src="./assets/images/home/brand.png" alt=""></div>
 
           </div>
          
@@ -983,7 +1063,7 @@
     <section id="logos">
       <div class="apple">
         <div class="img">
-          <img src="./home/assets/images/apple.png" alt="">
+          <img src="./assets/images/home/apple.png" alt="">
         </div>
         <div class="text">
           <p>Download IOS app</p>
@@ -991,10 +1071,10 @@
       </div>
       <div class="android">
         <div class="img">
-          <img src="./home/assets/images/android.png" alt="">
+          <img src="./assets/images/home/android.png" alt="">
         </div>
         <div class="text">
-          <p>Download IOS app</p>
+          <p>Download Android app</p>
         </div>
       </div>
     </section>
@@ -1068,7 +1148,7 @@
     <section id="copyright">
       <div class="copyright">
         <div class="img">
-          <img src="./home/assets/images/cards.png" alt="">
+          <img src="./assets/images/home/cards.png" alt="">
         </div>
         <div class="text">
           <p>© All Rights Reversed | Made With Love by IRON NETWORK for better Web</p>
@@ -1084,10 +1164,14 @@
     integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="./home/assets/js/home.js"></script>
+ 
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+  crossorigin="anonymous"
+></script>
+  <script src="./assets/js/home/home.js"></script>
+
 </body>
 
 </html>
