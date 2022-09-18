@@ -47,6 +47,17 @@ $(document).ready(function () {
         $(id).show();
     });
 
+    $(document).scroll(function(){
+        var st = $(this).scrollTop();
+        if(st > 400) {
+            $("nav").addClass('fixed');
+        } else {
+            $("nav").removeClass('fixed');
+        }
+    });
+
+ 
+
 })
 
 let swiper = new Swiper(".mySwiper", {

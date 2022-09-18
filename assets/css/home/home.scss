@@ -195,6 +195,7 @@ body {
     #nav-area {
         position: relative;
 
+
         .search {
             position: absolute;
             right: 40px;
@@ -209,7 +210,7 @@ body {
             color: white;
             border: none;
             box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
-            transition: all 0.3s;
+            // transition: all 0.3s;
         }
 
         .admin {
@@ -223,8 +224,23 @@ body {
 
         nav {
             display: flex;
-
+            transition: top 0.5s;
         }
+
+        .fixed {
+            position: fixed;
+            top: 0;
+            left: 0;
+            // transform: translateY(1px);
+            z-index: 2 ;
+            color: black;
+            animation-name: example;
+            animation-duration: 1s;
+            background-color: #283593;
+            width: 100%;
+        }
+
+    
 
         .navbar-list {
             display: flex;

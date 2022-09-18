@@ -5,6 +5,164 @@
 button {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+#top-area {
+    background-color: #333F99;
+    height: 100px;
+
+    .my-container {
+        width: 95%;
+        margin: auto;
+        background-color: #333F99;
+
+        .language {
+
+            margin-left: 10px;
+
+            .button1 {
+                background-color: #333F99;
+                border: none;
+                margin-top: 30px;
+            }
+        }
+
+        .country {
+
+            margin-left: 10px;
+
+            .button2 {
+                background-color: #333F99;
+                border: none;
+                margin-top: 30px;
+            }
+
+            span {
+                padding-left: 12px;
+            }
+
+            img {
+                width: 22px;
+                height: 22px;
+                border-radius: 50%;
+            }
+        }
+
+        .top-area-logo {
+            align-items: center;
+            margin-top: 28px;
+            margin-left: 60px;
+        }
+
+        .icons {
+            display: flex;
+            float: right;
+
+            .basket {
+
+                margin-right: 12px;
+                position: relative;
+
+                .basket-circles {
+                    width: 23px;
+                    height: 23px;
+                    background-color: #FF5722;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: 18px;
+                    left: 32px;
+                    padding-top: 10px;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    sup {
+
+                        color: white;
+                    }
+                }
+
+                .basket-bg {
+                    width: 44px;
+                    height: 44px;
+                    border-radius: 50%;
+                    background-color: #FF5722;
+                    margin-top: 28px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    i {
+                        color: white;
+                        font-size: 18px;
+                        cursor: pointer;
+                    }
+                }
+
+            }
+
+            .heart {
+
+                height: 45px;
+                margin-right: 20px;
+
+
+                .heart-circles {
+                    width: 23px;
+                    height: 23px;
+                    background-color: #FF5722;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: 19px;
+                    right: 87px;
+                    cursor: pointer;
+                    padding-top: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    sup {
+
+                        color: white;
+                    }
+                }
+
+                .favori-bg {
+                    width: 44px;
+                    height: 44px;
+                    border-radius: 50%;
+                    background-color: #FF5722;
+                    margin-top: 28px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    i {
+                        color: white;
+                        font-size: 18px;
+                        cursor: pointer;
+
+                    }
+
+                }
+            }
+
+            .profile-img {
+                width: 40px;
+
+                img {
+
+                    border-radius: 50%;
+                    width: 100%;
+                    margin-top: 30px;
+                }
+            }
+        }
+
+    }
+
+}
+
 #cover {
     .back-img {
         background-size: cover;
@@ -364,6 +522,7 @@ button {
 #suggestions {
     padding: 80px 0px;
     background-color: whitesmoke;
+
     h2 {
         font-size: 2.8rem;
         text-align: center;
@@ -422,7 +581,7 @@ button {
                 height: 60px;
                 border-radius: 50%;
                 display: flex;
-                background-color:#e52d27;
+                background-color: #e52d27;
                 justify-content: center;
                 align-items: center;
                 color: white;
@@ -481,7 +640,6 @@ button {
         padding-left: 0 !important;
     }
 }
-
 
 #copyright {
 

@@ -15,80 +15,119 @@
   </head>
   <body>
     <header>
-      <section id="head">
-        <div class="container-fluid">
+      <section id="top-area">
+        <div class="my-container">
           <div class="row">
-            <div class="col-lg-4 col-md">
-              <div class="left">
-                <div class="language">
-                  English
-                  <div class="icon">
-                    <i class="fa-sharp fa-solid fa-caret-down"></i>
-                  </div>
-                  <div class="language-ex d-none">
-                    <li>English</li>
-                    <li>French</li>
-                  </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
+              <div class="language">
+                <div class="dropdown">
+                  <button
+                    class="btn btn-secondary dropdown-toggle button1"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    English
+                  </button>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li><a class="dropdown-item" href="#">English</a></li>
+                    <li><a class="dropdown-item" href="#">French</a></li>
+                  </ul>
                 </div>
+              </div>
 
-                <div class="currency">
-                  USD
-                  <div class="icon">
-                    <i class="fa-sharp fa-solid fa-caret-down"></i>
-                  </div>
-                  <div class="currency-ex d-none">
-                    <ul>
-                      <li>
-                        <div>
-                          <img src="" alt="" />
-                        </div>
-                        <span>India</span>
-                      </li>
-                      <li>
-                        <div>
-                          <img src="./home/assets/images/OIP.jfif" alt="" />
-                        </div>
-                        <span>India</span>
-                      </li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                    </ul>
-                  </div>
+              <div class="country">
+                <div class="dropdown">
+                  <button
+                    class="btn btn-secondary dropdown-toggle button2"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    USD
+                  </button>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li>
+                      <a class="dropdown-item" href=""
+                        ><img src="./assets/images/home/Flag-India.jpg" /><span
+                          >INR</span
+                        ></a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href=""
+                        ><img
+                          src="./assets/images/home/220px-Flag_of_the_United_States.svg.png"
+                        /><span>USD</span></a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href=""
+                        ><img
+                          src="./assets/images/home/Flag_of_New_Zealand.svg.png"
+                        /><span>NZD</span></a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href=""
+                        ><img
+                          src="./assets/images/home/Flag_of_Germany.svg.png"
+                        /><span>GMD</span></a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href=""
+                        ><img
+                          src="./assets/images/home/1200px-Flag_of_Israel.svg.png"
+                        /><span>ILR</span></a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href=""
+                        ><img
+                          src="./assets/images/home/Flag_of_France.svg.png"
+                        /><span>EUR</span></a
+                      >
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-6">
-              <div class="logo">
-                <a href="./home.html">
-                  <img src="./assets/images/about/download.png" alt="" />
-                </a>
+            <div class="col-4">
+              <div class="top-area-logo">
+                <img src="./assets/images/about/download.png" alt="logo" />
               </div>
             </div>
 
-            <div class="col-lg-4 col-6">
-              <div class="right">
-                <div class="cart">
-                  <i class="fa-solid fa-cart-shopping"></i><sub>3</sub>
+            <div class="col-4">
+              <div class="icons">
+                <div class="basket">
+                  <div class="basket-bg">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                  <div class="basket-circles"><sup>0</sup></div>
                 </div>
+
                 <div class="heart">
-                  <i class="fa-solid fa-heart"></i><sub>2</sub>
+                  <div class="favori-bg">
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                  <div class="heart-circles"><sup>0</sup></div>
                 </div>
 
-                <div class="profile">
-                  <div class="img" style="padding: 0">
-                    <img src="./home/assets/images/OIP.jfif" alt="" />
-                  </div>
-                  <div class="profile-ex d-none">
-                    <ul>
-                      <li><i class="fa-solid fa-circle-user"></i>Profile</li>
-                      <li><i class="fa-solid fa-gear"></i>Account</li>
-                      <li><i class="fa-solid fa-envelope"></i>Message</li>
-                      <li><i class="fa-solid fa-power-off"></i>Log out</li>
-                    </ul>
-                  </div>
+                <div class="profile-img">
+                  <a href="./profile.html"
+                    ><img src="./assets/images/home/avatar.jfif" alt="profile"
+                  /></a>
                 </div>
               </div>
             </div>
@@ -105,7 +144,7 @@
               </div>
               <ul class="navbar-list">
                 <li>
-                  <a class="hov" href="#">HOME</a>
+                  <a class="hov" href="./home.html">HOME</a>
                   <ul class="submenu home">
                     <li><a href="#">HOME ONE</a></li>
                     <li><a href="#">HOME TWO</a></li>
@@ -115,13 +154,15 @@
                 <li>
                   <a class="hov" href="#">SHOP</a>
                   <ul class="submenu shop">
-                    <li><a href="#">PRODUCT DETAIL</a></li>
+                    <li><a href="./product.html">PRODUCT DETAIL</a></li>
                     <li><a href="#">CART</a></li>
                     <li><a href="#">CHECKOUT</a></li>
                     <li><a href="#">PAYMENT</a></li>
                   </ul>
                 </li>
-                <li><a class="hov" href="#">ACCESSORIES</a></li>
+                <li>
+                  <a class="hov" href="./accessories.html">ACCESSORIES</a>
+                </li>
                 <li>
                   <a class="hov" href="#">CATEGORIES</a>
                   <ul class="submenu categories">
@@ -157,7 +198,7 @@
                     </div>
                   </ul>
                 </li>
-                <li><a class="hov" href="#">ABOUT US</a></li>
+                <li><a class="hov" href="./about.html">ABOUT US</a></li>
                 <li><a class="hov" href="#">CONTACT US</a></li>
                 <li><a class="hov admin" href="#">ADMIN PANEL</a></li>
               </ul>
@@ -302,7 +343,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
     <script src="./assets/js/signup/signup.js"></script>
   </body>
 </html>
